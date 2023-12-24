@@ -18,6 +18,11 @@ Create me a personal website that has the current features:
 <html>
 <head>
     <title>Personal Website</title>
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <style>
         .container {
             display: flex;
@@ -117,8 +122,7 @@ Create me a personal website that has the current features:
 
         </div>
         <div class="resume-section">
-            <h2>Resume</h2>
-            <p>Please upload your resume or provide a link to it.</p>
+            <h2><a href="Tyler Bowes Resume 2024.pdf">Resume</a></h2>
         </div>
     </div>
 </body>
