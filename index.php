@@ -122,7 +122,7 @@ Create me a personal website that has the current features:
 
         </div>
         <div class="resume-section">
-            <h2><a href="Tyler Bowes Resume 2024.pdf">Resume</a></h2>
+            <h2><a href="PDFs/Tyler Bowes Resume 2024.pdf">Resume</a></h2>
         </div>
     </div>
 </body>
