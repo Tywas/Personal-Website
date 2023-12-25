@@ -1,77 +1,62 @@
+/* everything */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
-    /* FILEPATH: /c:/Apache24/htdocs/PersonalWebsite/personalwebsite_styles.css */
+.profile-image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
 
-    /* Header */
-    header {
-        background-color: #f2f2f2;
-        padding: 20px;
-    }
+.profile-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
-    header h1 {
-        margin: 0;
-    }
+.name {
+    font-size: 24px;
+    margin-top: 20px;
+}
 
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
+.contact-section {
+    margin-top: 50px;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+}
 
-    nav ul li {
-        display: inline;
-        margin-right: 10px;
-        background-color: #f9f9f9; /* Add a background color to the list items */
-    }
+.contact-section p {
+    text-align: left;
+    
+}
+.contact-section p a{
+    text-decoration: none; 
+    color: #0060B6;
+}
+    
+.socialmedia-icon {
+    height: 8vh;
+    width: 8vh;
+    display: inline;
+    padding: 10px;
+    transition: 0.3s ease;
+}
 
-    nav ul li a {
-        text-decoration: none;
-        color: #333;
-        /* display: block; */
-        padding: 10px;
-    }
-
-    nav ul li:hover a {
-        color: #ff0000; /* Change to the desired color */
-    }
-
-    nav ul li.current-page {
-        background-color: #ccc; /* Change to the desired color for the current page */
-        pointer-events: none; /* Disable clicking on the current page */
-    }
-    /* Sections */
-    section {
-        padding: 20px;
-        margin-bottom: 20px;
-        background-color: #f9f9f9;
-    }
-
-    section h2 {
-        margin-top: 0;
-    }
-
-    /* Footer */
-    footer {
-        background-color: #333;
-        color: #fff;
-        padding: 20px;
-        text-align: center;
-    }
-    .portrate {
-        background-image: "Images\Portrate (linkedin).jpg";
-        width: 100vw;
-        border: 0px;
-    }
-    .socialmedia-icon {
-        height: 5vh;
-        width: 5vh;
-        display: inline;
-    }
-
-    .socialmedia-icon:hover {
-        transform: scale(1.2);
-        transition: transform 0.3s ease;
-    }
-
-    .my-div {
-        background-image: url("../PersonalWebsite/Images/Portrate (linkedin).jpg");
-    }
+.socialmedia-icon:hover {
+    transform: scale(1.2);
+   
+}
+.resume-section {
+    margin-top: 50px;
+}

@@ -23,72 +23,8 @@ Create me a personal website that has the current features:
     <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
     <link rel="manifest" href="Favicon/site.webmanifest">
-    <style>
-        .container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-        }
-        
-        .profile-image {
-            width: 300px;
-            height: 300px;
-            overflow: hidden;
-            border-radius: 50%;
-        }
-        
-        .profile-image img {
-            object-fit: cover;
-            width: 100%;
-            height: 100%;
-        }
-        
-        .name {
-            font-size: 24px;
-            margin-top: 20px;
-        }
-        
-        .contact-section {
-            margin-top: 50px;
-            background-color: #f2f2f2;
-            padding: 10px 20px;
-            border-radius: 5px;
-            display: flex;
-            flex-direction: column;
-            /* align-items: center; */
-            /* justify-content: center; */
-            text-align: center;
-        }
-        
-        .contact-section p {
-            text-align: left;
-            
-        }
-        .contact-section p a{
-            text-decoration: none; 
-            color: #0060B6;
-        }
-            
+    <link rel="stylesheet" href="personalwebsite_styles.css">
 
-        .socialmedia-icon {
-            height: 8vh;
-            width: 8vh;
-            display: inline;
-            padding: 10px;
-            transition: 0.3s ease;
-        }
-
-        .socialmedia-icon:hover {
-            transform: scale(1.2);
-           
-        }
-        .resume-section {
-            margin-top: 50px;
-        }
-        
-
-    </style>
 </head>
 <body>
     <div class="container">
@@ -118,8 +54,20 @@ Create me a personal website that has the current features:
                     </path></g></g></svg>
                </a>
             </p>
-            <!-- </a> -->
-
+        </div>
+        <h2>Projects</h2>
+        <div class="project-section">
+            <div class="project-card">
+                <img src="Images/Portrate (linkedin).jpg" alt="Project 1">
+                <h3><a href="#">Onsemi</a></h3>
+                <p> - Developed methodology and tool to automate the extraction of MTF/SFR data for image sensor pixel arrays </p>
+            </div>
+            <div class="project-card">
+                <img src="Images/Portrate (linkedin).jpg" alt="Project 2">
+                <h3><a href="#">Project 2</a></h3>
+                <p>Short description of Project 2</p>
+            </div>
+            <!-- Add more project cards as needed -->
         </div>
         <div class="resume-section">
             <h2><a href="PDFs/Tyler Bowes Resume 2024.pdf">Resume</a></h2>
