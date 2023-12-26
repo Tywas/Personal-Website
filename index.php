@@ -58,14 +58,14 @@ Create me a personal website that has the current features:
         <h2>Projects</h2>
         <div class="project-section">
             <div class="project-card">
-                <img src="Images/Portrate (linkedin).jpg" alt="Project 1">
-                <h3><a href="#">Onsemi</a></h3>
+            <img src="Images\MTF example photo.png" alt="Project 1">
+                <h3><a href="Pages\MTF_documentation.php">Onsemi</a></h3>
                 <p> - Developed methodology and tool to automate the extraction of MTF/SFR data for image sensor pixel arrays </p>
             </div>
             <div class="project-card">
                 <img src="Images/Portrate (linkedin).jpg" alt="Project 2">
-                <h3><a href="#">Project 2</a></h3>
-                <p>Short description of Project 2</p>
+                <h3><a href="">Project 2</a></h3>
+                <p>Coming soon.</p>
             </div>
             <!-- Add more project cards as needed -->
         </div>
