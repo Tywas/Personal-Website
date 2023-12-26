@@ -64,8 +64,8 @@ Create me a personal website that has the current features:
             </div>
             <div class="project-card">
                 <img src="Images/Portrate (linkedin).jpg" alt="Project 2">
-                <h3><a href="#">Project 2</a></h3>
-                <p>Short description of Project 2</p>
+                <h3><a href="">Project 2</a></h3>
+                <p>Coming soon.</p>
             </div>
             <!-- Add more project cards as needed -->
         </div>
