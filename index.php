@@ -59,7 +59,7 @@ Create me a personal website that has the current features:
         <div class="project-section">
             <div class="project-card">
             <img src="Images\MTF example photo.png" alt="Project 1">
-                <h3><a href="MTF_documentation.php">Onsemi</a></h3>
+                <h3><a href="Pages\MTF_documentation.php">Onsemi</a></h3>
                 <p> - Developed methodology and tool to automate the extraction of MTF/SFR data for image sensor pixel arrays </p>
             </div>
             <div class="project-card">
