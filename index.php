@@ -1,38 +1,32 @@
 <!-- 
     Name: Tyler Bowes
-    Date: 10-18-2020
-    Assignment: Personal Website
-
-    Copilot request:
-Create me a personal website that has the current features:
-1. adds the picture from directory: "Images\Portrate (linkedin).jpg"
-2. adds styling so the that picture only shows the middle potion
-3. Put next to the image my name, "Tyler Bowes"
-4. add a section for the contact information
-5. style the section for the contact information to go along with the image
-6. add a section to imput my resume or a link to do so
+    Date: 10-18-2023
+    Personal Website
  -->
 
+ <?php $thisPage="index"; ?>
 
  <!DOCTYPE html>
 <html>
 <head>
     <title>Personal Website</title>
     <!-- Favicon links -->
-    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
-    <link rel="manifest" href="Favicon/site.webmanifest">
-    <link rel="stylesheet" href="personalwebsite_styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="stylesheet" href="/Styles/personalwebsite_styles.css">
 
 </head>
 <body>
+    <? include "Code/header.php"; ?>
+    
     <div class="container">
         <div class="profile-image">
             <img src="Images/Portrate (linkedin).jpg" alt="Profile Picture">
         </div>
         <div class="name">
-            Tyler Bowes
+            Hey, I'm Tyler Bowes
         </div>
         <div class="contact-section">
             <h2>Contact Information</h2>
