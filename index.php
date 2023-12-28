@@ -38,7 +38,7 @@ Create me a personal website that has the current features:
             </label>
 
             <div class="header_content">
-                <a href="PersonalWebsite2.php" id="website-name">Hey, I'm Tyler Bowes</a>
+                <a href="/" id="website-name">Tyler Bowes</a>
                 <ul>
                     <li><a href="PersonalWebsite2.php"<?php if (isset($thisPage) && $thisPage=="index"){
                         echo " id=\"current-page\"";
@@ -67,7 +67,7 @@ Create me a personal website that has the current features:
             <img src="Images/Portrate (linkedin).jpg" alt="Profile Picture">
         </div>
         <div class="name">
-            Tyler Bowes
+            Hey, I'm Tyler Bowes
         </div>
         <div class="contact-section">
             <h2>Contact Information</h2>
