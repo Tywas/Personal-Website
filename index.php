@@ -1,16 +1,7 @@
 <!-- 
     Name: Tyler Bowes
-    Date: 10-18-2020
-    Assignment: Personal Website
-
-    Copilot request:
-Create me a personal website that has the current features:
-1. adds the picture from directory: "Images\Portrate (linkedin).jpg"
-2. adds styling so the that picture only shows the middle potion
-3. Put next to the image my name, "Tyler Bowes"
-4. add a section for the contact information
-5. style the section for the contact information to go along with the image
-6. add a section to imput my resume or a link to do so
+    Date: 10-18-2023
+    Personal Website
  -->
 
 
