@@ -19,7 +19,7 @@
 
 </head>
 <body>
-    <? include "Code\header.php" ?>
+    <? include "Code/header.php"; ?>
     
     <div class="container">
         <div class="profile-image">
