@@ -4,7 +4,8 @@
     Personal Website
  -->
 
-
+ <?php $thisPage="index"; ?>
+ 
  <!DOCTYPE html>
 <html>
 <head>
