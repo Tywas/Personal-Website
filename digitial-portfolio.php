@@ -1,5 +1,5 @@
 <!-- copilot prompt - html code for a fancy, over the top, way of saying "coming soon" -->
-<?php $thisPage="index"; ?>
+<?php $thisPage="digitial-portfolio"; ?>
 <!DOCTYPE html>
 <html>
 <head>

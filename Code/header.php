@@ -14,13 +14,13 @@
                     <li><a href="/"<?php if (isset($thisPage) && $thisPage=="index"){
                         echo " id=\"current-page\"";
                     }?>>Home</a></li>
-                    <li><a href="/career.php"<?php if (isset($thisPage) && $thisPage=="about"){
+                    <li><a href="/career.php"<?php if (isset($thisPage) && $thisPage=="career"){
                         echo " id=\"current-page\"";
                     }?>>Career</a></li>
                     <!-- <li><a href="./#contact-section"<?php #if (isset($thisPage) && $thisPage=="contact"){
                         # echo " id=\"current-page\"";
                     #}?>>contact</a></li> -->
-                    <li class="dropdown"><a href="/digitial-portfolio.php" class="dropbtn" <?php if (isset($thisPage) && $thisPage=="user"){
+                    <li class="dropdown"><a href="/digitial-portfolio.php" class="dropbtn" <?php if (isset($thisPage) && $thisPage=="digitial-portfolio"){
                         echo " id=\"current-page\"";
                     }?>>Digitial Portfolio<svg class="dvmRw" viewBox="0 0 24 24" stroke="currentColor" jsname="HIH2V" focusable="false"><g transform="translate(9.7,12) rotate(45)"><path class="K4B8Y" d="M-4.2 0 L4.2 0" stroke-width="2"></path></g><g transform="translate(14.3,12) rotate(-45)"><path class="MrYMx" d="M-4.2 0 L4.2 0" stroke-width="2"></path></g></svg>
                         <div class="dropdown-content">
