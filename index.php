@@ -40,7 +40,7 @@ Create me a personal website that has the current features:
             <div class="header_content">
                 <a href="/" id="website-name">Tyler Bowes</a>
                 <ul>
-                    <li><a href="PersonalWebsite2.php"<?php if (isset($thisPage) && $thisPage=="index"){
+                    <li><a href="/"<?php if (isset($thisPage) && $thisPage=="index"){
                         echo " id=\"current-page\"";
                     }?>>Home</a></li>
                     <li><a href="./career.php"<?php if (isset($thisPage) && $thisPage=="about"){
