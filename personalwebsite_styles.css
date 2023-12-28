@@ -34,7 +34,7 @@ body{
 
 .contact-section {
     margin-top: 50px;
-    background-color: #f2f2f2;
+    background-color: #c0c0c0;
     padding: 10px 20px;
     border-radius: 5px;
     display: flex;
@@ -208,7 +208,7 @@ header {
         width: 100%;
         background-color: orange;
         top: 5vw;
-        left: -110%;
+        left: -130%;
         /* text-align: center; */
         transition: all .5s;
         z-index: 100; /* I want this to be at the front of the screen */
