@@ -1,4 +1,12 @@
 /* everything */
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2;
+    overflow: auto;
+}
+
 .container {
     display: flex;
     align-items: center;
