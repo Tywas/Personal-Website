@@ -3,7 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Coming Soon</title>
+    <title>Coming Soon</title>    
+    <link rel="stylesheet" href="/Styles/personalwebsite_styles.css">
     <style>
         body {
             background-color: #000;
@@ -41,6 +42,8 @@
     </style>
 </head>
 <body>
+    <? include "/Code/header.php" ?>
+
     <h1 class="glow">Coming Soon</h1>
     <p>Working on something amazing!</p>
 </body>
