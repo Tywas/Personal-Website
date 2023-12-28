@@ -43,7 +43,7 @@
     </style>
 </head>
 <body>
-    <? include "\Code\header.php"; ?>
+    <? #include "\Code\header.php"; ?>
     <h1 class="glow">Coming Soon</h1>
     <p>Working on something amazing!</p>
 </body>
