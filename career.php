@@ -3,9 +3,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="/Styles/personalwebsite_styles.css">
-
     <title>Career</title>
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/site.webmanifest">
+    <link rel="stylesheet" href="/Styles/personalwebsite_styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
