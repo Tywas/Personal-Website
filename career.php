@@ -124,7 +124,7 @@
     </style>
 </head>
 <body>
-    <?php include 'Pages/header.php';?>
+    <? include "/Code/header.php"; ?>
     <div class="container">
         <div class="about-me">
             <h1>About Me</h1>
