@@ -159,7 +159,7 @@
         </script>
 
         <div class="work-experience">
-            <img src="Images/Portrate (linkedin).jpg" alt="Work Experience 1">
+            <img src="Images/onsemi logo.png" alt="Work Experience 1">
             <h2>Onsemi</h2>
             <h5>Pixel Optics Intern</h5>
             <h5>Timeline: May 2023 - December 2023</h5>
