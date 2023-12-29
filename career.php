@@ -174,7 +174,7 @@
                 CIEXYZ color spaces to evaluate and verify color consistency</p>
         </div>
         <div class="work-experience">
-            <img src="Images/Portrate (linkedin).jpg" alt="Work Experience 2">
+            <img src="Images/curtis instrument logo.jpg" alt="Work Experience 2">
             <h2>Curtis Instruments, Inc.</h2>
             <h5>Application Engineer Intern</h5>
             <h5>Timeline: May 2023 - December 2023</h5>
