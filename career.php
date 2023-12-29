@@ -71,14 +71,6 @@
         .work-experience:hover {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-        
-        .work-experience:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-        
-        .work-experience:nth-child(odd) {
-            background-color: #fff;
-        }
 
         h5 {
             text-align: center;
