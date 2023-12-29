@@ -68,7 +68,7 @@
         
         .work-experience p {
             margin-bottom: 0;
-            color: #666;
+            color: #333;
             line-height: 1.5;
         }
         
@@ -118,7 +118,7 @@
         }
         .text-link {
             /* text-decoration: none; */
-            color: #666;
+            color: #000;
         }
         
     </style>
