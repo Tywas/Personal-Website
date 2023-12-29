@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="personalwebsite_styles7.css">
+    <link rel="stylesheet" href="/Styles/personalwebsite_styles.css">
 
     <title>Career</title>
     <style>
