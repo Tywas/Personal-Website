@@ -116,6 +116,10 @@
                 margin-left: 5vw;
                 margin-right: 5vw;
         }
+        .text-link {
+            text-decoration: none;
+        }
+        
     </style>
 </head>
 <body>
@@ -131,14 +135,14 @@
             &nbsp;&nbsp;&nbsp;&nbsp;I take initiative and leverage my skills as an engineer and programmer to make my visions become reality. 
             My contributions have resulted in:</p>
         
-            <p>1.&nbsp;&nbsp;&nbsp;&nbsp;Engineered a tool for measuring the <a href="\PersonalWebsite\Pages\MTF_documentation.php">Modulation Transfer Function (MTF)</a> of both simulated and real-world images resulting in accurate calculations compared to Imatest calculations.</p>
+            <p>1.&nbsp;&nbsp;&nbsp;&nbsp;Engineered a tool for measuring the <a href="\PersonalWebsite\Pages\MTF_documentation.php" class='text-link'>Modulation Transfer Function (MTF)</a> of both simulated and real-world images resulting in accurate calculations compared to Imatest calculations.</p>
 
             <p>2.&nbsp;&nbsp;&nbsp;&nbsp;Creation of a precision color measurement tool, utilizing the CIELAB color space, to ensure accurate and refined color assessment.</p>
 
             <p>3.&nbsp;&nbsp;&nbsp;&nbsp;Designed C++ modules employing object-oriented programming for motor speed-based controller vehicle systems ensuring international safety standards through PDO communication verification.</p>
 
             <p>Please email me at  
-            <a href="mailto:tylervictorbowes@gmail.com">tylervictorbowes@gmail.com</a>
+            <a href="mailto:tylervictorbowes@gmail.com" class='text-link'>tylervictorbowes@gmail.com</a>
             with any inquiries you may have.</p>
         </div>
         <!-- listens for when work-experience element is clicked -->
@@ -161,7 +165,7 @@
             <h5>Timeline: May 2023 - December 2023</h5>
             <p>• Utilized metric that determines the contrast and sharpness of an image (MTF/SFR) to 
                 collect MTF data from captured and simulated images.</p>
-            <p>• Developed methodology and tool to automate the extraction of MTF/SFR data for image sensor pixel arrays 
+            <p>• Developed methodology and <a href="\PersonalWebsite\Pages\MTF_documentation.php" class='text-link'>tool to automate the extraction of MTF/SFR</a> data for image sensor pixel arrays 
                 from captured images based on the International Organization for Standardization (ISO) 12233:2023 document
                 that shows good match to professional organization’s, Imatest, extracted MTF data of the same image.</p>
             <p>• Thoroughly documented Python scripts along with a descriptive user manual providing Onsemi with further 
@@ -173,7 +177,7 @@
             <img src="Images/curtis instrument logo.jpg" alt="Work Experience 2">
             <h2>Curtis Instruments, Inc.</h2>
             <h5>Application Engineer Intern</h5>
-            <h5>Timeline: May 2023 - December 2023</h5>
+            <h5>Timeline: May 2022 - August 2022</h5>
             <p>• Developed C++ modules for motor speed-based controller vehicle systems using object-oriented programming.</p>
             <p>• Created software utilizing PDO communication between CAN buses that verifies consistent and accurate 
                 transmissions within 100ms to meet new safety requirements for the international market.</p>
