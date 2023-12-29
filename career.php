@@ -117,7 +117,8 @@
                 margin-right: 5vw;
         }
         .text-link {
-            text-decoration: none;
+            /* text-decoration: none; */
+            color: #666;
         }
         
     </style>
