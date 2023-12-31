@@ -121,6 +121,7 @@ header {
     display: block;
     max-height: 5vw;
     height: 5vw;
+    min-height: 580px;
 }
 
 .header-naming{
