@@ -188,7 +188,7 @@
         <!-- Add more work experiences here -->
         </div>
         <div class="work-experience">
-            <img src="Images/boise-state-logo.png" alt="School Experience">
+            <img src="Images\Boise State Logo.png" alt="School Experience">
             <h2>Boise State University</h2>
             <h5>Bachelor Computer Science Student</h5>
             <h5>Timeline: September 2020 - May 2024</h5>
