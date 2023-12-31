@@ -136,7 +136,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;I take initiative and leverage my skills as an engineer and programmer to make my visions become reality. 
             My contributions have resulted in:</p>
         
-            <p>1.&nbsp;&nbsp;&nbsp;&nbsp;Engineered a tool for measuring the <a href="\PersonalWebsite\Pages\MTF_documentation.php" class='text-link'>Modulation Transfer Function (MTF)</a> of both simulated and real-world images resulting in accurate calculations compared to Imatest calculations.</p>
+            <p>1.&nbsp;&nbsp;&nbsp;&nbsp;Engineered a tool for measuring the <a href="..\Pages\MTF_documentation.php" class='text-link'>Modulation Transfer Function (MTF)</a> of both simulated and real-world images resulting in accurate calculations compared to Imatest calculations.</p>
 
             <p>2.&nbsp;&nbsp;&nbsp;&nbsp;Creation of a precision color measurement tool, utilizing the CIELAB color space, to ensure accurate and refined color assessment.</p>
 
@@ -166,7 +166,7 @@
             <h5>Timeline: May 2023 - December 2023</h5>
             <p>• Utilized metric that determines the contrast and sharpness of an image (MTF/SFR) to 
                 collect MTF data from captured and simulated images.</p>
-            <p>• Developed methodology and <a href="\PersonalWebsite\Pages\MTF_documentation.php" class='text-link'>tool to automate the extraction of MTF/SFR</a> data for image sensor pixel arrays 
+            <p>• Developed methodology and <a href="..\Pages\MTF_documentation.php" class='text-link'>tool to automate the extraction of MTF/SFR</a> data for image sensor pixel arrays 
                 from captured images based on the International Organization for Standardization (ISO) 12233:2023 document
                 that shows good match to professional organization’s, Imatest, extracted MTF data of the same image.</p>
             <p>• Thoroughly documented Python scripts along with a descriptive user manual providing Onsemi with further 
@@ -185,8 +185,17 @@
             <p>• Developed forklift class to organize methods that perform specified mechanisms, utilizing the grouping 
                 solenoids.
             <p>• Designed flowcharts and produced unit tests for each program.</p>
-        </div>
         <!-- Add more work experiences here -->
+        </div>
+        <div class="work-experience">
+            <img src="Images\Boise State Logo.png" alt="School Experience">
+            <h2>Boise State University</h2>
+            <h5>Bachelor Computer Science Student</h5>
+            <h5>Timeline: September 2020 - May 2024</h5>
+            <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java,and C), algorithms, and software development methodologies and workflows.</p>
+            <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Languaging Processing.</p>
+            <p>• Demonstrated ability to design and implement website using PHP, CSS, and javascript.</p>
+        </div>
     </div>
 </body>
 </html>
