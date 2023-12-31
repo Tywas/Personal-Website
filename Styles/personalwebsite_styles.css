@@ -208,6 +208,7 @@ header {
     }
     .header_content ul {
         position: fixed;
+        display:block;
         width: 100%;
         background-color: orange;
         top: 5vw;
