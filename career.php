@@ -166,7 +166,7 @@
             <h5>Timeline: May 2023 - December 2023</h5>
             <p>• Utilized metric that determines the contrast and sharpness of an image (MTF/SFR) to 
                 collect MTF data from captured and simulated images.</p>
-            <p>• Developed methodology and <a href="\PersonalWebsite\Pages\MTF_documentation.php" class='text-link'>tool to automate the extraction of MTF/SFR</a> data for image sensor pixel arrays 
+            <p>• Developed methodology and <a href="..\Pages\MTF_documentation.php" class='text-link'>tool to automate the extraction of MTF/SFR</a> data for image sensor pixel arrays 
                 from captured images based on the International Organization for Standardization (ISO) 12233:2023 document
                 that shows good match to professional organization’s, Imatest, extracted MTF data of the same image.</p>
             <p>• Thoroughly documented Python scripts along with a descriptive user manual providing Onsemi with further 
@@ -185,7 +185,30 @@
             <p>• Developed forklift class to organize methods that perform specified mechanisms, utilizing the grouping 
                 solenoids.
             <p>• Designed flowcharts and produced unit tests for each program.</p>
-        </div>
+        <!-- Add more work experiences here -->
+
+                <div class="work-experience">
+                    <img src="Images/school-logo.png" alt="School Experience">
+                    <h2>University of Computer Science</h2>
+                    <h5>Computer Science Student</h5>
+                    <h5>Timeline: September 2021 - Present</h5>
+                    <p>• Studying various computer science subjects including algorithms, data structures, and software development.</p>
+                    <p>• Participating in coding competitions and hackathons to enhance problem-solving skills.</p>
+                    <p>• Collaborating with classmates on group projects to develop software applications.</p>
+                </div>
+
+                <div class="work-experience">
+                    <img src="Images/boise-state-logo.png" alt="School Experience">
+                    <h2>Boise State University</h2>
+                    <h5>Bachelor Computer Science Student</h5>
+                    <h5>Timeline: September 2020 - May 2024</h5>
+                    <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java,and C), algorithms, and software development methodologies and workflows.</p>
+                    <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Languaging Processing.</p>
+                    <p>• Demonstrated ability to design and implement databases for efficient data management.</p>
+                </div>
+            </div>
+        </body>
+        </html>
         <!-- Add more work experiences here -->
     </div>
 </body>
