@@ -121,7 +121,7 @@ header {
     display: block;
     max-height: 5vw;
     height: 5vw;
-    min-height: 580px;
+    /* min-height: 5%; */
 }
 
 .header-naming{
@@ -218,17 +218,19 @@ header {
         z-index: 100; /* I want this to be at the front of the screen */
     }
     .header_content ul li{
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 
     .header_content ul li a {
         font-size: 5vw;
     }
 
-    .header_content ul li a:hover {
+    .header_content ul li a:hover, .header_content ul li a:hover *,
+    .dropdown:hover *{
     background: none;
-    color: black;
-    }
+    color: rgb(0, 0, 0);
+}
 
     #check:checked ~ .header_content ul{
         left: 0;
