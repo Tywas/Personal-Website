@@ -243,8 +243,6 @@ header {
     color: rgb(0, 0, 0);
     }
 
-    .dropdown-content .dropdown-links:hover {background-color: none; color: none;}
-
     #check:checked ~ .header_content ul{
         left: 0;
         /* overflow: hidden; Hide vertical scrollbar  */
@@ -300,6 +298,6 @@ header {
     display: block;
 }
 
-.dropdown-content .dropdown-links:hover {background-color: #313131;}
+.dropdown-content .dropdown-links:hover {background-color: inherit;}
 
 .dropdown:hover .dropdown-content {display: block;}
