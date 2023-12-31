@@ -121,6 +121,7 @@ header {
     display: block;
     max-height: 5vw;
     height: 5vw;
+    /* min-height: 5%; */
 }
 
 .header-naming{
@@ -207,6 +208,7 @@ header {
     }
     .header_content ul {
         position: fixed;
+        display:block;
         width: 100%;
         background-color: orange;
         top: 5vw;
@@ -215,17 +217,30 @@ header {
         transition: all .5s;
         z-index: 100; /* I want this to be at the front of the screen */
     }
+
+    .header_content ul li a#current-page {
+        margin: 0 5px;
+        /* background: rgb(72, 178, 244); */
+        border-radius: 3px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        pointer-events: none;
+        cursor: default;
+    }
+
     .header_content ul li{
-        display: block;
+        display: flex;
+        justify-content: center;
     }
 
     .header_content ul li a {
         font-size: 5vw;
     }
 
-    .header_content ul li a:hover {
+    .header_content ul li a:hover, .header_content ul li a:hover *,
+    .dropdown:hover *{
     background: none;
-    color: black;
+    color: rgb(0, 0, 0);
     }
 
     #check:checked ~ .header_content ul{
@@ -233,6 +248,9 @@ header {
         /* overflow: hidden; Hide vertical scrollbar  */
     }
 
+    .dropdown-content {
+        margin-top: 5.3vw;
+    }
     /* #check.active > body{ */
         /* position: fixed; */
         /* overflow-y:hidden;
@@ -280,6 +298,6 @@ header {
     display: block;
 }
 
-.dropdown-content .dropdown-links:hover {background-color: #313131;}
+.dropdown-content .dropdown-links:hover {background-color: inherit;}
 
 .dropdown:hover .dropdown-content {display: block;}
