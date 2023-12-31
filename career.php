@@ -186,30 +186,16 @@
                 solenoids.
             <p>• Designed flowcharts and produced unit tests for each program.</p>
         <!-- Add more work experiences here -->
-
-                <div class="work-experience">
-                    <img src="Images/school-logo.png" alt="School Experience">
-                    <h2>University of Computer Science</h2>
-                    <h5>Computer Science Student</h5>
-                    <h5>Timeline: September 2021 - Present</h5>
-                    <p>• Studying various computer science subjects including algorithms, data structures, and software development.</p>
-                    <p>• Participating in coding competitions and hackathons to enhance problem-solving skills.</p>
-                    <p>• Collaborating with classmates on group projects to develop software applications.</p>
-                </div>
-
-                <div class="work-experience">
-                    <img src="Images/boise-state-logo.png" alt="School Experience">
-                    <h2>Boise State University</h2>
-                    <h5>Bachelor Computer Science Student</h5>
-                    <h5>Timeline: September 2020 - May 2024</h5>
-                    <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java,and C), algorithms, and software development methodologies and workflows.</p>
-                    <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Languaging Processing.</p>
-                    <p>• Demonstrated ability to design and implement databases for efficient data management.</p>
-                </div>
-            </div>
-        </body>
-        </html>
-        <!-- Add more work experiences here -->
+        </div>
+        <div class="work-experience">
+            <img src="Images/boise-state-logo.png" alt="School Experience">
+            <h2>Boise State University</h2>
+            <h5>Bachelor Computer Science Student</h5>
+            <h5>Timeline: September 2020 - May 2024</h5>
+            <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java,and C), algorithms, and software development methodologies and workflows.</p>
+            <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Languaging Processing.</p>
+            <p>• Demonstrated ability to design and implement databases for efficient data management.</p>
+        </div>
     </div>
 </body>
 </html>
