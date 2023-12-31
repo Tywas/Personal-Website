@@ -194,7 +194,7 @@
             <h5>Timeline: September 2020 - May 2024</h5>
             <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java,and C), algorithms, and software development methodologies and workflows.</p>
             <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Languaging Processing.</p>
-            <p>• Demonstrated ability to design and implement databases for efficient data management.</p>
+            <p>• Demonstrated ability to design and implement website using PHP, CSS, and javascript.</p>
         </div>
     </div>
 </body>
