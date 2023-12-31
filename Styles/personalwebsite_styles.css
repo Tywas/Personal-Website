@@ -243,7 +243,7 @@ header {
     color: rgb(0, 0, 0);
     }
 
-    .dropdown-content .dropdown-links:hover {background-color: orange;}
+    .dropdown-content .dropdown-links:hover {background-color: none; color: none;}
 
     #check:checked ~ .header_content ul{
         left: 0;
