@@ -136,7 +136,7 @@
             &nbsp;&nbsp;&nbsp;&nbsp;I take initiative and leverage my skills as an engineer and programmer to make my visions become reality. 
             My contributions have resulted in:</p>
         
-            <p>1.&nbsp;&nbsp;&nbsp;&nbsp;Engineered a tool for measuring the <a href="\PersonalWebsite\Pages\MTF_documentation.php" class='text-link'>Modulation Transfer Function (MTF)</a> of both simulated and real-world images resulting in accurate calculations compared to Imatest calculations.</p>
+            <p>1.&nbsp;&nbsp;&nbsp;&nbsp;Engineered a tool for measuring the <a href="..\Pages\MTF_documentation.php" class='text-link'>Modulation Transfer Function (MTF)</a> of both simulated and real-world images resulting in accurate calculations compared to Imatest calculations.</p>
 
             <p>2.&nbsp;&nbsp;&nbsp;&nbsp;Creation of a precision color measurement tool, utilizing the CIELAB color space, to ensure accurate and refined color assessment.</p>
 
