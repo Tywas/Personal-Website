@@ -241,8 +241,9 @@ header {
     .dropdown:hover *{
     background: none;
     color: rgb(0, 0, 0);
-    background-color: orange;
-}
+    }
+
+    .dropdown-content .dropdown-links:hover {background-color: orange;}
 
     #check:checked ~ .header_content ul{
         left: 0;
@@ -250,7 +251,7 @@ header {
     }
 
     .dropdown-content {
-        margin-top: 5vw;
+        margin-top: 5.2vw;
     }
     /* #check.active > body{ */
         /* position: fixed; */
