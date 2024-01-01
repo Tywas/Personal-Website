@@ -80,7 +80,7 @@
 <body>
     <? include "../Code/header.php"; ?>
     <div class="container">
-        <h1 class="title">Modulation Transfer Function (MTF)</h1>
+        <h1 class="title">PDO Communication</h1>
         <p class="description"><br>
             <h3 class="headers">Summary:</h3><br>
             

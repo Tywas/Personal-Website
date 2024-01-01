@@ -80,7 +80,7 @@
 <body>
     <? include "../Code/header.php"; ?>
     <div class="container">
-        <h1 class="title">Modulation Transfer Function (MTF)</h1>
+        <h1 class="title">Color Analysis Tool</h1>
         <p class="description"><br>
             <h3 class="headers">Summary:</h3><br>
             This page serves as documentation for the Color Checker Tool, outlining the underlying principles and methodologies 
@@ -90,9 +90,9 @@
         </p>
         <p class="description">
             <br><h3 class="headers">Executive Summary:</h3> <br>
-            <b>1.)</b> MTF is a metric used to measure the sharpness and contrast of an image. <br>
-            <b>2.)</b> Methods taken From ISO 12233 Document to obtain MTF. (Edge Spread Function, Line Spread Function, Modulation Transfer Function)<br>
-            <b>3.)</b> Utilizing slanted knife edge to take advantage of sampling beyond the diffraction limit. <br><br>
+            1.) <br>
+            2.) <br>
+            3.) <br><br>
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
             <label class="figure-label" id="image-1">
