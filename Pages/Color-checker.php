@@ -90,13 +90,12 @@
         </p>
         <p class="description">
             <br><h3 class="headers">Executive Summary:</h3> <br>
-            1.) <br>
-            2.) <br>
-            3.) <br><br>
+            1.) Developed tool to transition from RGB to CIEXYZ to CIELAB for most accuate analysis of color<br>
+            2.) In depth understaning of CIE color spaces to accuratly explain the use of each color space and its functions<br><br>
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
             <label class="figure-label" id="image-2">
-                <img src="..\Images\macbeth_colorcheck_chart.jpg" class="Image-2">
+                <img src="..\Images\macbeth_colorcheck_chart.jpg" class="Image-1">
                 <p class="figure_description">Figure 1: Macbeth Color Chart</p>
             </label>
             <div class="text">
