@@ -96,8 +96,8 @@
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
             <label class="figure-label" id="image-1">
-                <img src="..\Images\MTF example photo.png" alt="Image 1">
-                <p class="figure_description">Figure 1: Example of Intensity Response and MTF</p>
+                <img src="..\Images\CIELAB-color-space-diagram.png" alt="Image 1">
+                <p class="figure_description">Figure 1: CIELAB color space diagram</p>
             </label>
             <div class="text">
                 <p class="description">
@@ -118,7 +118,7 @@
         <!-- <div class="image-container"> -->
             <div class="text">
                 <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp; 
                 </p>
             <!-- </div> -->
             <!-- <img src="..\Images\MTF example photo.png" alt="Image 2"> -->
