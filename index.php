@@ -57,9 +57,9 @@
                 <p> - Developed methodology and tool to automate the extraction of MTF/SFR data for image sensor pixel arrays </p>
             </div>
             <div class="project-card">
-                <img src="Images/Portrate (linkedin).jpg" alt="Project 2">
-                <h3><a href="">Project 2</a></h3>
-                <p>Coming soon.</p>
+                <img src="Images\macbeth_colorcheck_chart.jpg" alt="Project 2">
+                <h3><a href="Pages\Color-checker.php">Color Fidelity Tool</a></h3>
+                <p>Developed tool to transition from RGB to CIEXYZ to CIELAB for most accurate analysis of color.</p>
             </div>
             <!-- Add more project cards as needed -->
         </div>
