@@ -90,8 +90,8 @@
         </p>
         <p class="description">
             <br><h3 class="headers">Executive Summary:</h3> <br>
-            1.) Developed tool to transition from RGB to CIEXYZ to CIELAB for most accuate analysis of color<br>
-            2.) In depth understaning of CIE color spaces to accuratly explain the use of each color space and its functions<br><br>
+            1.) Developed tool to transition from RGB to CIEXYZ to CIELAB for most accurate analysis of color<br>
+            2.) In depth understanding of CIE color spaces to accurately explain the use of each color space and its functions<br><br>
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
             <label class="figure-label" id="image-2">
@@ -102,15 +102,15 @@
                 <p class="description">
                     &nbsp;&nbsp;&nbsp;&nbsp;Color Analysis is a tool used to measure the color accuracy of color.  For the creation 
                     of this tool, I used CIE color spaces to serve as a metric for evaluating and quantifying the color accuracy and 
-                    characteristics within an image. The importance of this took provids insights into color fidelity, saturation, and overall 
+                    characteristics within an image. The importance of this took provides insights into color fidelity, saturation, and overall 
                     image quality. In Figure 1, a Macbeth color chart is show and the most standard way to capture color data to analyze color.
-                    You would need a reference image, which are the colors you are trying to match, and a test/target image. So, if the macbeth Chart
+                    You would need a reference image, which are the colors you are trying to match, and a test/target image. So, if the Macbeth Chart
                     is used we could analyze 24 colors.
                     <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;The Color analusis tool specifically measures color fidality utilized CIELAB color space, which is the most standard 
-                    way of measuring color. To analyze color we compare the distance between two points (two colors) in 
+                    &nbsp;&nbsp;&nbsp;&nbsp;The Color analysis tool specifically measures color fidelity utilized CIELAB color space, which is the most standard 
+                    way of measuring color. To analyze color, we compare the distance between two points (two colors) in 
                     the CIELAB color space, which is represented as Delta-E (ΔE). The shorter the distance, the closer the color is to being its true
-                    color based on the reference color being used.  Various facorts can affect ΔE, for example, the Color Filter Array (CFA) sensors 
+                    color based on the reference color being used.  Various factors can affect ΔE, for example, the Color Filter Array (CFA) sensors 
                     used for a camera use might have more green channels than CFA sensors used for cars, so the green colors might produce a lower ΔE
                     for the latter. 
                 </p>
@@ -155,17 +155,6 @@
                 </p>
             </div>
         </div>
-        <!-- <div class="image-container">
-            <div class="text">
-                <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                </p>
-            </div>
-            <label class="figure-label">
-                <img src="..\Images\Slanted edge response.png" alt="Image 2">
-                <p class="figure_description">Figure 4: Slanted edge response</p>
-            </label>
-        </div> -->
     </div>
 </body>
 </html>

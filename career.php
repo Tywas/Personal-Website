@@ -130,7 +130,7 @@
             <h1>About Me</h1>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;Below you will find my career journey. It all boils down to my passion for developing quality and maximizing 
             learning potential within the companies I work with. I believe that my career journey is a never-ending 
-            opportunity giving endevor and I approach with blend of curiosity and dedication, where every challenge 
+            opportunity giving endeavor and I approach with blend of curiosity and dedication, where every challenge 
             is a chance to delve into new realms, absorb insights, and refine/develope my skills.
             <br>
             &nbsp;&nbsp;&nbsp;&nbsp;I take initiative and leverage my skills as an engineer and programmer to make my visions become reality. 
@@ -192,8 +192,8 @@
             <h2>Boise State University</h2>
             <h5>Bachelor Computer Science Student</h5>
             <h5>Timeline: September 2020 - May 2024</h5>
-            <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java,and C), algorithms, and software development methodologies and workflows.</p>
-            <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Languaging Processing.</p>
+            <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java, and C), algorithms, and software development methodologies and workflows.</p>
+            <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Language Processing.</p>
             <p>• Demonstrated ability to design and implement website using PHP, CSS, and javascript.</p>
         </div>
     </div>
