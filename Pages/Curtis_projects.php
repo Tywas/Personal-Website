@@ -92,9 +92,9 @@
         </p>
         <p class="description">
             <br><h3 class="headers">Executive Summary:</h3> <br>
-            1.)  Engineered C++ modules utilizing object-oriented programming to enhance motor speed-based controller vehicle systems<br>
-            2.)  Developed software employing Process Data Object (PDO)communication between Controller Area Network (CAN) buses, ensuring reliable transmissions within a 100ms timeframe to meet international safety standards.<br>
-            3.)  Created an optimized solenoid  class, streamlining methods for executing specified mechanisms through the strategic use of grouping solenoids<br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;1.)  Engineered C++ modules utilizing object-oriented programming to enhance motor speed-based controller vehicle systems<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;2.)  Developed software employing Process Data Object (PDO)communication between Controller Area Network (CAN) buses, ensuring reliable transmissions within a 100ms timeframe to meet international safety standards.<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;3.)  Created an optimized solenoid  class, streamlining methods for executing specified mechanisms through the strategic use of grouping solenoids<br><br>
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
             <label class="figure-label" id="image-1">

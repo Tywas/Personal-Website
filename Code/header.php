@@ -26,7 +26,7 @@
                     <div class="dropdown-content">
                         <a href="..\Pages\MTF_documentation.php" class="dropdown-links">MTF Tool</a>
                         <a href="..\Pages\Color-checker.php" class="dropdown-links">Color Analysis</a>
-                        <a href="..\Pages\PDO-communication.php" class="dropdown-links">PDO communication</a>
+                        <a href="..\Pages\Curtis_projects.php" class="dropdown-links">PDO communication</a>
                     </div>
                 </a></li>
             </ul>
