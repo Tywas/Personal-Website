@@ -1,3 +1,4 @@
+<?php $thisPage="PDO_and_Solenoid"; ?>
 <!DOCTYPE html>
 <html>
 <head>

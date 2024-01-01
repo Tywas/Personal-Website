@@ -1,3 +1,4 @@
+<?php $thisPage="Color_Analysis"; ?>
 <!DOCTYPE html>
 <html>
 <head>
