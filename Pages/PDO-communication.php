@@ -83,60 +83,59 @@
         <h1 class="title">PDO Communication</h1>
         <p class="description"><br>
             <h3 class="headers">Summary:</h3><br>
+            During my time at Curtis Insturments I was able to work on the Swing Reach Forklift, which was just picking back up
+            momentum after covid. I was able to work on the PDO communication between the CAN buses, and solinoid funcationalities.
+            This was my first internship experice and there were a lot of mistakes made during the programming proccess but a lot of 
+            success made from this aswell.  I describe some of the stuggles and how I over came them along with the techincal understanding 
+            of what was done.
             
         </p>
         <p class="description">
             <br><h3 class="headers">Executive Summary:</h3> <br>
-            1.)  <br>
-            2.)  <br>
-            3.)  <br><br>
+            1.)  Engineered C++ modules utilizing object-oriented programming to enhance motor speed-based controller vehicle systems<br>
+            2.)  Developed software employing Process Data Object (PDO)communication between Controller Area Network (CAN) buses, ensuring reliable transmissions within a 100ms timeframe to meet international safety standards.<br>
+            3.)  Created an optimized solinoid class, streamlining methods for executing specified mechanisms through the strategic use of grouping solenoids<br><br>
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
             <label class="figure-label" id="image-1">
-                <img src="..\Images\MTF example photo.png" alt="Image 1">
-                <p class="figure_description">Figure 1: Example of Intensity Response and MTF</p>
+                <img src="..\Images\Swingreach forklift.jpg" alt="Image 1">
+                <p class="figure_description">Figure 1: Swing Reach Forklift</p>
             </label>
             <div class="text">
                 <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;There were two main projects I worked on; Creating a solenoid class and ensuring PDO communication.  
+                    With the solenoid class, I created functionality to be able to move the forks, in the Swing Reach Forklift, up/down, left/right, and rotate.
+                    Creating a single solinoid wasn't a problem, the trickyness came when creating a group of solinoids that are needed to perform
+                    an action.  Two different solinoids couldn't go off at the same time if they were the solinoids are reused for other functions.
+                    The route I took was to classify each solinoid and determine whether it was apart of one or more functionalities.  If it was appart 
+                    of multiple functionalities, The process would wait until it finished turning off so that the selected process was in a ready state 
+                    until it proceeded.   
                     <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;Apart of this project, an edge case was brought to my attention that I hadn't thought of.  The edge case was that
+                    if the solinoid was in the middle of transitioning to process and the user wanted to stop the process or change the process.  Now stopping the process
+                    is the same as changing the process, going into it's state where no fork movements are happening.  So, I mention this word in the previous paragraph, but this 
+                    is where ready state came.  If the solinoid was in the middle of transitioning, it would finish transition, and if the user wanted to change the process during 
+                    its transition, it immediatly go transition to its desired postion.  To put this into example, if the forklift's forks are moving up and the user has a quick decision
+                    to move left, right, then back up again, the solinoids would transition to the left, and depending if right was only called during the transition, it wouldn't activate
+                    because it couldn't it would then start transitioning back to moving up.  This is meant so that the actions are very deliberate and not accidental. 
                 </p>
             </div>
         </div>
         <!-- <div class="image-container"> -->
             <div class="text">
                 <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;The PDO communication was created to allow the two CAN buses to communicate efficiently
+                    with each other. The main purpose of this is to ensure they are able to send and recieve a respose within 100ms, 
+                    the internation regulation. PDO is primarily designed for transmitting time-sensitive data, such as sensor readings 
+                    or control signals, with minimal delay. There were three factors I had to consider; sending/recieving duplicated messages, 
+                    message skips, and not reciving a message at all.  To ensure that the message was sent and recieved, I created a counter that
+                    send messages every 10ms, and if the message was recieved, it would reset the counter.  If a message was not recieved withing 91ms, 
+                    an error would be thrown. since a message was not recieved within the 100ms timeframe.  If a message was recieved, within 11ms and and 91ms,
+                    then a warning would be thrown since messages were skipped.
+                      <br><br> 
                 </p>
             <!-- </div> -->
             <!-- <img src="..\Images\MTF example photo.png" alt="Image 2"> -->
-        </div>
-        <div class="image-container">
-            <div class="text">
-                <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                </p>
-            </div>
-            <label class="figure-label" id="image-2">
-                <img src="..\Images\vertical knife edge.png" class="Image-2">
-                <p class="figure_description">Figure 2: Knife edge</p>
-            </label>
-            <label class="figure-label" id="image-2">
-                <img src="..\Images\vertical edge response.png" class="Image-2">
-                <p class="figure_description">Figure 3: Knife edge response</p>
-            </label>
-        </div>
-        <div class="image-container">
-            <div class="text">
-                <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                </p>
-            </div>
-            <label class="figure-label">
-                <img src="..\Images\Slanted edge response.png" alt="Image 2">
-                <p class="figure_description">Figure 4: Slanted edge response</p>
-            </label>
         </div>
     </div>
 </body>
