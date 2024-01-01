@@ -97,21 +97,23 @@
         <div class="image-container">
             <label class="figure-label" id="image-2">
                 <img src="..\Images\macbeth_colorcheck_chart.jpg" class="Image-2">
-                <p class="figure_description">Figure 2: Macbeth Color Chart</p>
+                <p class="figure_description">Figure 1: Macbeth Color Chart</p>
             </label>
             <div class="text">
                 <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;This Color Analysis Tool, it serves as a metric for evaluating and quantifying the color accuracy and 
-                    characteristics within an image. By providing insights into color fidelity, saturation, and overall image quality, this tool becomes 
-                    indispensable for precise color analysis and enhancement in various visual applications. To analyze color we need to compare two colors, 
-                    one being the reference and the other being the test/target. 
+                    &nbsp;&nbsp;&nbsp;&nbsp;Color Analysis is a tool used to measure the color accuracy of color.  For the creation 
+                    of this tool, I used CIE color spaces to serve as a metric for evaluating and quantifying the color accuracy and 
+                    characteristics within an image. The importance of this took provids insights into color fidelity, saturation, and overall 
+                    image quality. In Figure 1, a Macbeth color chart is show and the most standard way to capture color data to analyze color.
+                    You would need a reference image, which are the colors you are trying to match, and a test/target image. So, if the macbeth Chart
+                    is used we could analyze 24 colors.
                     <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;I designed the tool to use the CIE color spaces, which is the most standard way of measuring color. 
-                    Specifically, CIELAB color space is used. To analyze the tool we compare the distance between the two points (the two colors 
-                    in the CIELAB color space) which is represented as Delta-E (ΔE).  The smaller the distance, the closer the color is to being the true
-                    color based on the reference color being used.  Various facorts can affect ΔE, for example, the Color Filter Array (CFA) for a sensors 
-                    used for a camera use might have more green channels than a sensors used for cars, so the green colors might be a little more accurate
-                    than latter. 
+                    &nbsp;&nbsp;&nbsp;&nbsp;The Color analusis tool specifically measures color fidality utilized CIELAB color space, which is the most standard 
+                    way of measuring color. To analyze color we compare the distance between two points (two colors) in 
+                    the CIELAB color space, which is represented as Delta-E (ΔE). The shorter the distance, the closer the color is to being its true
+                    color based on the reference color being used.  Various facorts can affect ΔE, for example, the Color Filter Array (CFA) sensors 
+                    used for a camera use might have more green channels than CFA sensors used for cars, so the green colors might produce a lower ΔE
+                    for the latter. 
                 </p>
             </div>
         </div>
@@ -120,7 +122,7 @@
                 <p class="description">
                     &nbsp;&nbsp;&nbsp;&nbsp; The CIELAB color space is a standardized color model designed to be perceptually uniform, 
                     meaning that the perceptual difference between colors is consistent across the entire color space. The workflow of 
-                    converting from RGB values to CIELAB involves two crucial intermediate steps: first to CIEXYZ and then to CIELAB.
+                    converting from RGB values to CIELAB involves two crucial intermediate steps: first from RGB values to CIEXYZ and then to CIELAB.
                 </p>
             <!-- </div> -->
             <!-- <img src="..\Images\MTF example photo.png" alt="Image 2"> -->
@@ -129,20 +131,32 @@
             <div class="text">
                 <p class="description">
                     &nbsp;&nbsp;&nbsp;&nbsp; RGB represents colors as combinations of red, green, and blue channels, but these values 
-                    are device-dependent and do not accurately represent human perception. CIEXYZ is an intermediate color space 
-                    designed to be device-independent, representing colors in a way that aligns with human vision.
+                    are device-dependent and do not accurately represent human perception. So, CIEXYZ is an intermediate color space 
+                    designed to be device-independent, representing colors in a way that aligns with human vision. Figure 3 represents 
+                    the CIEXYZ color space wavelengths the human eye can see, making up a vast number of different colors. Even though this color space
+                    does a good job at representing color, it would be more accurate to transfer this into the CIELAB space. 
                 </p>
-            </div>
-            <label class="figure-label" id="image-1">
-                <img src="..\Images\CIELAB-color-space-diagram.png" alt="Image 1">
-                <p class="figure_description">Figure 1: CIELAB color space diagram</p>
-            </label>
+            </div>  
             <label class="figure-label" id="image-2">
                 <img src="..\Images\CIE_XYZ_wavelengths.png" class="Image-2">
-                <p class="figure_description">Figure 3: Knife edge response</p>
+                <p class="figure_description">Figure 2: CIEXYZ color space visual wavelength</p>
             </label>
-        </div>
+        </div> 
         <div class="image-container">
+            <label class="figure-label" id="image-1">
+                <img src="..\Images\CIELAB-color-space-diagram.png" alt="Image 1">
+                <p class="figure_description">Figure 3: CIELAB color space diagram</p>
+            </label>
+            <div class="text">
+                <p class="description">
+                    The CIELAB color space is a more accurate representation of color because it is designed to be perceptually uniform, and it being in a 3D space
+                    allows for more accurate color representation. Figure 3 represents the CIELAB color space. Notice this space is a 3-dimentional plane containing 
+                    four colors instead of 3 like the XYZ color space. the colors and axis are represented as follows: Red and Green (represented by A*), Blue and 
+                    Yellow (represented by B*), and L* representing lightness (white and black) of a color.
+                </p>
+            </div>
+        </div>
+        <!-- <div class="image-container">
             <div class="text">
                 <p class="description">
                     &nbsp;&nbsp;&nbsp;&nbsp;
@@ -152,7 +166,7 @@
                 <img src="..\Images\Slanted edge response.png" alt="Image 2">
                 <p class="figure_description">Figure 4: Slanted edge response</p>
             </label>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
