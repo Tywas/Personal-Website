@@ -95,9 +95,9 @@
             3.) <br><br>
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
-            <label class="figure-label" id="image-1">
-                <img src="..\Images\CIELAB-color-space-diagram.png" alt="Image 1">
-                <p class="figure_description">Figure 1: CIELAB color space diagram</p>
+            <label class="figure-label" id="image-2">
+                <img src="..\Images\macbeth_colorcheck_chart.jpg" class="Image-2">
+                <p class="figure_description">Figure 2: Macbeth Color Chart</p>
             </label>
             <div class="text">
                 <p class="description">
@@ -118,7 +118,9 @@
         <!-- <div class="image-container"> -->
             <div class="text">
                 <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp; 
+                    &nbsp;&nbsp;&nbsp;&nbsp; The CIELAB color space is a standardized color model designed to be perceptually uniform, 
+                    meaning that the perceptual difference between colors is consistent across the entire color space. The workflow of 
+                    converting from RGB values to CIELAB involves two crucial intermediate steps: first to CIEXYZ and then to CIELAB.
                 </p>
             <!-- </div> -->
             <!-- <img src="..\Images\MTF example photo.png" alt="Image 2"> -->
@@ -126,15 +128,17 @@
         <div class="image-container">
             <div class="text">
                 <p class="description">
-                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp; RGB represents colors as combinations of red, green, and blue channels, but these values 
+                    are device-dependent and do not accurately represent human perception. CIEXYZ is an intermediate color space 
+                    designed to be device-independent, representing colors in a way that aligns with human vision.
                 </p>
             </div>
-            <label class="figure-label" id="image-2">
-                <img src="..\Images\vertical knife edge.png" class="Image-2">
-                <p class="figure_description">Figure 2: Knife edge</p>
+            <label class="figure-label" id="image-1">
+                <img src="..\Images\CIELAB-color-space-diagram.png" alt="Image 1">
+                <p class="figure_description">Figure 1: CIELAB color space diagram</p>
             </label>
             <label class="figure-label" id="image-2">
-                <img src="..\Images\vertical edge response.png" class="Image-2">
+                <img src="..\Images\CIE_XYZ_wavelengths.png" class="Image-2">
                 <p class="figure_description">Figure 3: Knife edge response</p>
             </label>
         </div>
