@@ -89,9 +89,9 @@
         </p>
         <p class="description">
             <br><h3 class="headers">Executive Summary:</h3> <br>
-            <b>1.)</b> MTF is a metric used to measure the sharpness and contrast of an image. <br>
-            <b>2.)</b> Methods taken From ISO 12233 Document to obtain MTF. (Edge Spread Function, Line Spread Function, Modulation Transfer Function)<br>
-            <b>3.)</b> Utilizing slanted knife edge to take advantage of sampling beyond the diffraction limit. <br><br>
+            1.) MTF is a metric used to measure the sharpness and contrast of an image. <br>
+            2.) Methods taken From ISO 12233 Document to obtain MTF. (Edge Spread Function, Line Spread Function, Modulation Transfer Function)<br>
+            3.) Utilizing slanted knife edge to take advantage of sampling beyond the diffraction limit. <br><br>
         </p><p><!-- You've found a hidden easter egg, contact me to let me know!! --></p>
         <div class="image-container">
             <label class="figure-label" id="image-1">
