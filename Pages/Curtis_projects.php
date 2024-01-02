@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PDO communication</title>
+    <title>Curtis Projects</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/Favicon/favicon-16x16.png">
