@@ -40,14 +40,11 @@
             height: auto;
         }
 
-        .image-container .text {
-            flex: 1;
-            /* margin-left: 20px; */
-        }
-
-        .image-container:nth-child(even) .text {
-            margin-left: 0;
-            margin-right: 10px;
+        section {
+            width: 35%;
+            margin: 0 3%;
+            display: inline-block;
+            vertical-align: top;
         }
 
         #image-1{
@@ -65,17 +62,6 @@
             width: 40%;
         }
 
-        .figure_description {
-            font-size: 12px;
-            text-align: center;
-            margin-top: 5px;
-            color: blue;
-        }
-
-        .digital_portfolio_link:hover {
-            transform: scale(1.1);
-        }   
-
     </style>
 </head>
 <body>
@@ -87,8 +73,7 @@
         <h2>Section 1</h2>
         <a href="Pages\MTF_documentation.php" class="digital_portfolio_link">
             <img src="Images\MTF example photo.png" alt="Section 1 Image" id="image-2">
-            <p>This is the first section of my portfolio.</p>
-            MTF Tool
+            <p class="discription">MTF Tool</p>
         </a>
     </section>
 
@@ -96,8 +81,7 @@
         <h2>Section 2</h2>
         <a href="Pages\Color-checker.php" class="digital_portfolio_link">
             <img src="Images\macbeth_colorcheck_chart.jpg" alt="Section 2 Image" id="image-2">
-            <p>This is the second section of my portfolio.</p>
-            Color Fidelity Tool
+            <p class="discription">Color Fidelity Tool</p>
         </a>
     </section>
 
@@ -105,8 +89,7 @@
         <h2>Section 3</h2>
         <a href="Pages\Curtis_projects.php" class="digital_portfolio_link">
             <img src="Images\Swingreach forklift.jpg" alt="Section 3 Image" id="image-2">
-            <p>This is the third section of my portfolio.</p>
-            PDO and Solenoids
+            <p class="discription">PDO and Solenoids</p>
         </a>
     </section>
 </body>
