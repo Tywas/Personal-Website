@@ -1,3 +1,4 @@
+<?php $thisPage="digitial-portfolio"; ?>
 
 <!DOCTYPE html>
 <html>
