@@ -63,9 +63,9 @@
             </div>
             <!-- Add more project cards as needed -->
         </div>
-        <div class="resume-section">
+        <!-- <div class="resume-section">
             <h2><a href="PDFs/Tyler Bowes Resume 2024.pdf">Resume</a></h2>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
