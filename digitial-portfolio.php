@@ -11,63 +11,74 @@
     <link rel="stylesheet" href="/Styles/personalwebsite_styles.css">
 <style>
     .title {
-            color: #333;
-            font-size: 2em;
-            text-align: center;
-        }
+        color: #333;
+        font-size: 2em;
+        text-align: center;
+    }
 
-        .headers {
-            font-size: 20px;
-            font-weight: bold;
-            margin: 0px;
-            text-align: center;
-        }
+    .headers {
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0px;
+        text-align: center;
+    }
 
-        .description {
-            /* color: #666; */
-            font-size: 16px;
-            line-height: 1.5;
-            margin-right: 20px;
-            text-decoration: none;
-        }
+    .description {
+        /* color: #666; */
+        font-size: 16px;
+        line-height: 1.5;
+        margin-right: 20px;
+        text-decoration: none;
+    }
 
-        .image-container {
-            display: flex;
-            align-items: center;
-            margin: 10px 0;
-        }
+    .image-container {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
 
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-        }
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
 
-        section {
-            width: 35%;
-            height: auto;
-            margin: 0 3%;
-            display: inline-block;
-            vertical-align: top;
-            background-color: #f0f0f0; 
-            padding: 20px; 
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-        }
-        section:hover {
-            transform: scale(1.2);  
-        }   
+    section {
+        width: 35%;
+        height: auto;
+        margin: 0 3%;
+        display: inline-block;
+        vertical-align: top;
+        background-color: #f0f0f0; 
+        padding: 20px; 
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    
+    section:hover {
+        transform: scale(1.1);
+        transition: transform 0.3s ease;  
+    }   
 
-        .progect_images{
-            width: 100%;
-            height: auto;
-            text-align: center;
-        }
+    .progect_images{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .breif-description {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 
     </style>
 </head>
 <body>
     <? include "Code/header.php"; ?>
 
-    <h1 class="title">My Digital Portfolio</h1>
+    <h1 class="title">Digital Portfolio</h1>
+    <p class="breif-description">This Digital Portfolio is meant to dive deeper into projects I've worked on.  This enables me to give a better
+        explaination of what was done and what/how it is applyed, more so than what is documented inside my resume.  
+        Enjoy! Link to <a href="PDFs/Tyler Bowes Resume 2024.pdf">RESUME</a>.
+    </p>
 
     <section>
         <h2 class="headers">Section 1</h2>
