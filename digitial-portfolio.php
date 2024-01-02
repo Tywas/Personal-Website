@@ -27,6 +27,7 @@
             font-size: 16px;
             line-height: 1.5;
             margin-right: 20px;
+            text-decoration: none;
         }
 
         .image-container {
@@ -42,9 +43,13 @@
 
         section {
             width: 35%;
+            height: auto;
             margin: 0 3%;
             display: inline-block;
             vertical-align: top;
+            background-color: #f2f2f2; /* Add your desired background color here */
+            padding: 20px; /* Add padding for better visual appearance */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
         }
 
         #image-1{
