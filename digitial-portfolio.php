@@ -54,7 +54,7 @@
     }
     
     section:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
         transition: transform 0.3s ease;  
     }   
 
@@ -67,6 +67,7 @@
     .breif-description {
         margin-left: 20%;
         margin-right: 20%;
+        margin-bottom: 5%;
     }
 
     </style>
@@ -76,31 +77,31 @@
 
     <h1 class="title">Digital Portfolio</h1>
     <p class="breif-description">This Digital Portfolio is meant to dive deeper into projects I've worked on.  This enables me to give a better
-        explaination of what was done and what/how it is applyed, more so than what is documented inside my resume.  
-        Enjoy! Link to <a href="PDFs/Tyler Bowes Resume 2024.pdf">RESUME</a>.
+        explaination of what was done and what/how it is applyed, more so than what is documented inside my <a href="PDFs/Tyler Bowes Resume 2024.pdf">RESUME</a>.  
+        Enjoy!
     </p>
 
     <section>
-        <h2 class="headers">Section 1</h2>
+        <h2 class="headers">MTF Tool</h2>
         <a href="Pages\MTF_documentation.php" class="digital_portfolio_link">
             <img src="Images\MTF example photo.png" alt="Section 1 Image" class="progect_images">
-            <p class="discription">MTF Tool</p>
+            <!-- <p class="discription">MTF Tool</p> -->
         </a>
     </section>
 
     <section>
-        <h2 class="headers">Section 2</h2>
+        <h2 class="headers">Color Fidelity Tool</h2>
         <a href="Pages\Color-checker.php" class="digital_portfolio_link">
             <img src="Images\macbeth_colorcheck_chart.jpg" alt="Section 2 Image" class="progect_images">
-            <p class="discription">Color Fidelity Tool</p>
+            <!-- <p class="discription">Color Fidelity Tool</p> -->
         </a>
     </section>
 
     <section>
-        <h2 class="headers">Section 3</h2>
+        <h2 class="headers">PDO and Solenoids</h2>
         <a href="Pages\Curtis_projects.php" class="digital_portfolio_link">
             <img src="Images\Swingreach forklift.jpg" alt="Section 3 Image" class="progect_images">
-            <p class="discription">PDO and Solenoids</p>
+            <!-- <p class="discription">PDO and Solenoids</p> -->
         </a>
     </section>
 </body>
