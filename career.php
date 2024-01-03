@@ -130,7 +130,7 @@
             <h1>About Me</h1>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;Below you will find my career journey. It all boils down to my passion for developing quality and maximizing 
             learning potential within the companies I work with. I believe that my career journey is a never-ending 
-            opportunity giving endevor and I approach with blend of curiosity and dedication, where every challenge 
+            opportunity giving endeavor and I approach with blend of curiosity and dedication, where every challenge 
             is a chance to delve into new realms, absorb insights, and refine/develope my skills.
             <br>
             &nbsp;&nbsp;&nbsp;&nbsp;I take initiative and leverage my skills as an engineer and programmer to make my visions become reality. 
@@ -138,9 +138,9 @@
         
             <p>1.&nbsp;&nbsp;&nbsp;&nbsp;Engineered a tool for measuring the <a href="..\Pages\MTF_documentation.php" class='text-link'>Modulation Transfer Function (MTF)</a> of both simulated and real-world images resulting in accurate calculations compared to Imatest calculations.</p>
 
-            <p>2.&nbsp;&nbsp;&nbsp;&nbsp;Creation of a precision color measurement tool, utilizing the CIELAB color space, to ensure accurate and refined color assessment.</p>
+            <p>2.&nbsp;&nbsp;&nbsp;&nbsp;Creation of a precision  <a href="..\Pages\Color-checker.php" class='text-link'>color measurement tool</a>, utilizing the CIELAB color space, to ensure accurate and refined color assessment.</p>
 
-            <p>3.&nbsp;&nbsp;&nbsp;&nbsp;Designed C++ modules employing object-oriented programming for motor speed-based controller vehicle systems ensuring international safety standards through PDO communication verification.</p>
+            <p>3.&nbsp;&nbsp;&nbsp;&nbsp;Designed C++ modules employing object-oriented programming for motor speed-based controller vehicle systems ensuring international safety standards through <a href="..\Pages\Curtis_projects.php" class='text-link'>PDO communication verification</a>.</p>
 
             <p>Please email me at  
             <a href="mailto:tylervictorbowes@gmail.com" class='text-link'>tylervictorbowes@gmail.com</a>
@@ -168,10 +168,10 @@
                 collect MTF data from captured and simulated images.</p>
             <p>• Developed methodology and <a href="..\Pages\MTF_documentation.php" class='text-link'>tool to automate the extraction of MTF/SFR</a> data for image sensor pixel arrays 
                 from captured images based on the International Organization for Standardization (ISO) 12233:2023 document
-                that shows good match to professional organization’s, Imatest, extracted MTF data of the same image.</p>
+                that shows good match to professional organization's, Imatest, extracted MTF data of the same image.</p>
             <p>• Thoroughly documented Python scripts along with a descriptive user manual providing Onsemi with further 
                 insight of the methodology used to obtain MTF/SFR from applying ISO 12233.</p>
-            <p>• Developed scripts to interchangeably transfer RGB color description data into the standardized CIELAB and 
+            <p>• Developed  <a href="..\Pages\Color-checker.php" class='text-link'>color analysis</a> scripts to interchangeably transfer RGB color description data into the standardized CIELAB and 
                 CIEXYZ color spaces to evaluate and verify color consistency</p>
         </div>
         <div class="work-experience">
@@ -180,10 +180,10 @@
             <h5>Application Engineer Intern</h5>
             <h5>Timeline: May 2022 - August 2022</h5>
             <p>• Developed C++ modules for motor speed-based controller vehicle systems using object-oriented programming.</p>
-            <p>• Created software utilizing PDO communication between CAN buses that verifies consistent and accurate 
+            <p>• Created software utilizing <a href="..\Pages\Curtis_projects.php" class='text-link'>PDO communication</a> between CAN buses that verifies consistent and accurate 
                 transmissions within 100ms to meet new safety requirements for the international market.</p>
-            <p>• Developed forklift class to organize methods that perform specified mechanisms, utilizing the grouping 
-                solenoids.
+            <p>• Developed forklift class to organize methods that perform specified mechanisms, utilizing the <a href="..\Pages\Curtis_projects.php" class='text-link'>grouping 
+                solenoids</a>.
             <p>• Designed flowcharts and produced unit tests for each program.</p>
         <!-- Add more work experiences here -->
         </div>
@@ -192,8 +192,8 @@
             <h2>Boise State University</h2>
             <h5>Bachelor Computer Science Student</h5>
             <h5>Timeline: September 2020 - May 2024</h5>
-            <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java,and C), algorithms, and software development methodologies and workflows.</p>
-            <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Languaging Processing.</p>
+            <p>• Bachelor of Computer Science graduate (in May 2024) with expertise in key programming languages (Python, Java, and C), algorithms, and software development methodologies and workflows.</p>
+            <p>• In-depth understanding and application of Database implementation, Object-Oriented Design Patterns, and Natural Language Processing.</p>
             <p>• Demonstrated ability to design and implement website using PHP, CSS, and javascript.</p>
         </div>
     </div>

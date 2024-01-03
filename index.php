@@ -49,23 +49,23 @@
                </a>
             </p>
         </div>
-        <h2>Projects</h2>
+        <h2 class="project_title">Projects</h2>
         <div class="project-section">
             <div class="project-card">
             <img src="Images\MTF example photo.png" alt="Project 1">
-                <h3><a href="Pages\MTF_documentation.php">Onsemi</a></h3>
+                <h3><a href="Pages\MTF_documentation.php">MTF Tool</a></h3>
                 <p> - Developed methodology and tool to automate the extraction of MTF/SFR data for image sensor pixel arrays </p>
             </div>
             <div class="project-card">
-                <img src="Images/Portrate (linkedin).jpg" alt="Project 2">
-                <h3><a href="">Project 2</a></h3>
-                <p>Coming soon.</p>
+                <img src="Images\macbeth_colorcheck_chart.jpg" alt="Project 2">
+                <h3><a href="Pages\Color-checker.php">Color Fidelity Tool</a></h3>
+                <p>Developed tool to transition from RGB to CIEXYZ to CIELAB for most accurate analysis of color.</p>
             </div>
             <!-- Add more project cards as needed -->
         </div>
-        <div class="resume-section">
+        <!-- <div class="resume-section">
             <h2><a href="PDFs/Tyler Bowes Resume 2024.pdf">Resume</a></h2>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
