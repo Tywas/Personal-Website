@@ -171,7 +171,7 @@
                 that shows good match to professional organization's, Imatest, extracted MTF data of the same image.</p>
             <p>• Thoroughly documented Python scripts along with a descriptive user manual providing Onsemi with further 
                 insight of the methodology used to obtain MTF/SFR from applying ISO 12233.</p>
-            <p>• Developed  <a href="..\Pages\Color-checker.php">color analysis</a> scripts to interchangeably transfer RGB color description data into the standardized CIELAB and 
+            <p>• Developed  <a href="..\Pages\Color-checker.php" class='text-link'>color analysis</a> scripts to interchangeably transfer RGB color description data into the standardized CIELAB and 
                 CIEXYZ color spaces to evaluate and verify color consistency</p>
         </div>
         <div class="work-experience">

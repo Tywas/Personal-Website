@@ -49,7 +49,7 @@
                </a>
             </p>
         </div>
-        <h2>Projects</h2>
+        <h2 class="project_title">Projects</h2>
         <div class="project-section">
             <div class="project-card">
             <img src="Images\MTF example photo.png" alt="Project 1">

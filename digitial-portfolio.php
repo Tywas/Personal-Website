@@ -20,6 +20,7 @@
         font-size: 20px;
         font-weight: bold;
         margin: 0px;
+        margin-bottom: 3px;
         text-align: center;
     }
 
