@@ -81,7 +81,7 @@
 <body>
     <? include "../Code/header.php"; ?>
     <div class="container">
-        <h1 class="title">Color Analysis Tool</h1>
+        <h1 class="title">Color Fidelity Tool</h1>
         <p class="description"><br>
             <h3 class="headers">Summary:</h3><br>
             This page serves as documentation for the Color Checker Tool, outlining the underlying principles and methodologies 

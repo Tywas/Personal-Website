@@ -77,7 +77,7 @@
     <? include "Code/header.php"; ?>
 
     <h1 class="title">Digital Portfolio</h1>
-    <p class="breif-description">This Digital Portfolio is meant to dive deeper into projects I've worked on.  This enables me to give a better
+    <p class="breif-description">&nbsp;&nbsp;&nbsp;&nbsp;This Digital Portfolio is meant to dive deeper into projects I've worked on.  This enables me to give a better
         explaination of what was done and what/how it is applyed, more so than what is documented inside my 
         <a href="PDFs\Tyler Bowes Resume 2024.pdf" target=”_blank”>RESUME</a>.  Enjoy!
     </p>
