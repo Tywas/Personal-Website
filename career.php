@@ -128,10 +128,10 @@
     <div class="container">
         <div class="about-me">
             <h1>About Me</h1>
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;Below you will find my career journey. It all boils down to my passion for developing quality and maximizing 
-            learning potential within the companies I work with. I believe that my career journey is a never-ending 
-            opportunity giving endeavor and I approach with blend of curiosity and dedication, where every challenge 
-            is a chance to delve into new realms, absorb insights, and refine/develope my skills.
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Below you will find my career journey. It all boils down to my passion for developing quality and 
+                maximizing learning potential within the companies I work with. In my career journey, I embrace a challenge where every 
+                obstacle serves as an avenue to explore, gain valuable insights, and elevate my skills. My mindset of curiosity and growth 
+                has led me to develop a variety of tools that have helped me tackle any challenge I face.
             <br>
             &nbsp;&nbsp;&nbsp;&nbsp;I take initiative and leverage my skills as an engineer and programmer to make my visions become reality. 
             My contributions have resulted in:</p>
